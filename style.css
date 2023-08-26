@@ -19,6 +19,7 @@ body {
 
 a {
     text-decoration: none;
+    
     /* color: black; */
 }
 
@@ -38,6 +39,8 @@ nav {
     top: 0;
     transition: all 0.2s ease-in-out;
     background-color: white;
+    z-index: 1;
+
 
 }
 nav img {
@@ -134,35 +137,54 @@ nav a {
     width: 100vw;
     /* height: 768px; */
 
-    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(255,102,0,0.2665441176470589) 100%);
+    /* background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(255,102,0,0.2665441176470589) 100%); */
+    background: url('https://blog.thevoiceofnation.com/wp-content/uploads/2018/06/PhotoFunia-1528369115.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.3; */
+    
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     gap: 3rem;
     padding: var(--main-padding);
+    padding : 2rem 6.7rem;
+    
 }
 
 .hero-left{
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     height: 500px;
     max-width: 500px;
-    /* border:2px solid black; */
+
     gap: 1.4rem;
+
+    backdrop-filter: brightness(40%);
+    padding: 2rem;
+    border-radius: 50px;
 }
 .hero-left h2{
     font-size: 2.975rem;
     font-weight: 600;
     line-height: 1.2;
-    color: var(--accent_color);
+
+    color: white;
+    backdrop-filter: blur(10px);
+
+    
 }
 
 .hero-left p{
     font-size: 1.3125rem;
-    color: #4a4a4a;
+    /* color: #4a4a4a; */
+    color: white;
+
     line-height: 1.4;
 }
 .hero-left input[type=button]{
@@ -176,8 +198,6 @@ nav a {
     
 }
 
-
-
 .hero-right{
     display: flex;
     flex-direction: column;
@@ -189,4 +209,19 @@ nav a {
 .hero-right > img{
     height: auto;
     width: 355px;
+}
+
+
+/* section two */
+
+.section-two{
+    margin:20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.section-two img{
+    border-radius: 30px;
 }
