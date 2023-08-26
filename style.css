@@ -143,4 +143,35 @@ nav a {
     padding: var(--main-padding);
 }
 
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 500px;
+    max-width: 500px;
+    /* border:2px solid black; */
+    gap: 1.4rem;
+}
+.hero-left h2{
+    font-size: 2.975rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--accent_color);
+}
 
+.hero-left p{
+    font-size: 1.3125rem;
+    color: #4a4a4a;
+    line-height: 1.4;
+}
+.hero-left input[type=button]{
+    padding: 11px 30px;
+    font-size: 1.1625rem;
+    color: white;
+    background-color: var(--accent_color);
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    
+}
