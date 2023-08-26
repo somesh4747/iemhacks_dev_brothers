@@ -175,3 +175,18 @@ nav a {
     cursor: pointer;
     
 }
+
+
+
+.hero-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 500px;
+    max-width: 500px;
+}
+.hero-right > img{
+    height: auto;
+    width: 355px;
+}
