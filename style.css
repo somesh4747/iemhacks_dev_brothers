@@ -225,3 +225,10 @@ nav a {
 .section-two img{
     border-radius: 30px;
 }
+
+
+.issue-heading{
+    margin: 20px auto;
+    display: block;
+    width: auto;
+}
